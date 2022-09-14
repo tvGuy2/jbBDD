@@ -9,7 +9,7 @@ if(isset($_REQUEST["etat"])) {
     $etat = (int) $_REQUEST["etat"];
 }
 else
-    $etat = 0;
+    $etat = 0   ;
 switch($etat)
 {
     case    0:
